@@ -39,7 +39,7 @@ public class NumerosPrimosApp {
             esPrimo = false;
         }
 
-        // Verificamos la divisibilidad hasta la raiz cuadrada del numero
+        // Verificamos la divisibilidad
         for (int i = 2; i < n && esPrimo; i++) {
             if (n % i == 0) {
                 esPrimo = false;
@@ -47,4 +47,5 @@ public class NumerosPrimosApp {
         }
         return esPrimo;
     }
+
 }
