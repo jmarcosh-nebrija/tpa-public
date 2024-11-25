@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Definición del bean Motor -->
+    <bean id="motor" class="nebrija.tpa.s5.ioc.MotorDiesel"/>
+
+    <!-- Definición del bean Coche y su dependencia (Motor) -->
+    <bean id="coche" class="nebrija.tpa.s5.ioc.CocheGasolina">
+        <property name="motor" ref="motor"/> <!-- Inyección de dependencia -->
+    </bean>
+
+</beans>
