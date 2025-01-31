@@ -1,8 +1,8 @@
 package nebrija.tpa.examen.ejercicio1.view;
 
-import examen.ejercicio1.core.Destino;
-import examen.ejercicio1.core.DestinoCiudad;
-import examen.ejercicio1.core.DestinoPlaya;
+import nebrija.tpa.examen.ejercicio1.core.Destino;
+import nebrija.tpa.examen.ejercicio1.core.DestinoCiudad;
+import nebrija.tpa.examen.ejercicio1.core.DestinoPlaya;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,7 +1,7 @@
 package nebrija.tpa.examen.ejercicio2.registro;
 
-import examen.ejercicio2.participante.ListaParticipantes;
-import examen.ejercicio2.participante.Participante;
+import nebrija.tpa.examen.ejercicio2.participante.ListaParticipantes;
+import nebrija.tpa.examen.ejercicio2.participante.Participante;
 
 import java.io.IOException;
 

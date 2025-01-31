@@ -1,6 +1,6 @@
 package nebrija.tpa.examen.ejercicio1;
 
-import examen.ejercicio1.view.PanelPrincipalPlanificadorDestinos;
+import nebrija.tpa.examen.ejercicio1.view.PanelPrincipalPlanificadorDestinos;
 
 import javax.swing.*;
 
